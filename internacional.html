@@ -7,10 +7,11 @@
     <title>Notícia cidade - Seu site de notícia</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body class="internacional">
-    <div id="container">
-        <div id="topo">
-            <h1 class="logo">Notícia cidade</h1>
+<body id="duas-colunas" class="internacional">
+    <div id="container"> <!--Inicio container-->
+        
+        <div id="topo"><!--Inicio topo-->
+            <h1 class="logo">Notícias cidade</h1>
             <ul id="navegacao">
                 <li class="primeiro"><a id="home" href="index.html">Home</a></li>
                 <li><a id="brasil" href="brasil.html">Brasil</a></li>
@@ -21,9 +22,107 @@
                 <li><a id="fotos" href="fotos.html">Fotos</a></li>
                
             </ul>
+        </div><!--Fim topo-->
+
+        <div id="conteudo"><!--Inicio conteúdo-->
+            <div id="primario"><!--Inicio conteúdo prmário -->
+                <div class="caixa destaque">
+                    <h2>Destaques</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Noticias do mundo</h3>
+                        <img src="imagens/cidade.jpg" width="100%">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="">Leia mais!</a>
+                    </div>
+                </div>
+                <div class="caixa ">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                       <ul id="lista-noticia">
+                           <li>
+                            <a href="">
+                                <img src="imagens/tecnologia.jpg" width="80">
+                                <h3>Novas Tecnologias</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur ...</p>
+                            </a>
+                           </li>
+                       </ul>
+                       <ul id="lista-noticia">
+                        <li>
+                         <a href="">
+                             <img src="imagens/tecnologia.jpg" width="80">
+                             <h3>Novas Tecnologias</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur ...</p>
+                         </a>
+                        </li>
+                    </ul>
+                    <ul id="lista-noticia">
+                        <li>
+                         <a href="">
+                             <img src="imagens/tecnologia.jpg" width="80">
+                             <h3>Novas Tecnologias</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur ...</p>
+                         </a>
+                        </li>
+                    </ul>
+                    <ul id="lista-noticia">
+                        <li>
+                         <a href="">
+                             <img src="imagens/tecnologia.jpg" width="80">
+                             <h3>Novas Tecnologias</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur ...</p>
+                         </a>
+                        </li>
+                    </ul>
+                      
+                    </div>
+                </div>
+
+            </div><!--fim conteúdo primário -->
+          
+
+            <div id="lateral"><!--Inicio conteúdo lateral-->
+                <div class="caixa">
+                    <h2>Lugares</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">Nova york</a></li>
+                            <li><a href="">Canadá</a></li>
+                            <li><a href="">Pequim</a></li>
+                            <li><a href="">Tóquio</a></li>
+                            <li><a href="">São paulo</a></li>
+                            <li><a href="">Rio de janeiro</a></li>
+                            <li><a href="">Londres</a></li>
+                            <li><a href="">Dubai</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                       <form action="">
+                           <div>
+                               <label for="email">Email:</label>
+                               <input type="text" name="email" id="email" placeholder="E-mail">
+                           </div>
+                           <div>
+                               <input class="submit" type="submit" value="Cadastrar">
+                           </div>
+                       </form>
+                    </div>
+                </div>
+
+            </div><!--Fim conteudo lateral-->
+
+        </div><!--Fim conteúdo-->
+       
+    </div><!--Fim container-->
+    <div id="container-rodape" style="clear: both;">
+        <div id="rodape">
+           &copy; Copyright 2000-2022 Notícias cidade
+
         </div>
-
-
     </div>
 </body>
 </html>
